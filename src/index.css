@@ -11,3 +11,163 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 5px 18px;
+  height: 64px;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 0 10px;
+}
+
+nav {
+  font-weight: bold;
+}
+
+
+#landing {
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  background-color: #485d56;
+  color: white;
+}
+
+#landing > div {
+  margin: 10px;
+  max-width: 450px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+h1, h3, p {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #f2cc14;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #96afa6;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+button {
+  background-color: #f2cc14;
+  outline: none;
+  border: none;
+  color: #485d56;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fadd56;
+  color: #485d56;
+}
+
+
+#specials {
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#specials > div {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#specials > div > h3 {
+  color: #3b3b3b;
+  font-weight: bold;
+}
+
+
+#specials > div:nth-child(2)  {
+  padding: 40px 0;
+}
+
+.product-card {
+  display: flex;
+    flex-direction: column;
+  max-width: 300px;
+  background-color: #f1f1f1;
+  margin: 0 35px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  border-radius: 10px 10px 0 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card > div:nth-child(2) {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card > div, span {
+  padding: 10px 10px;
+}
+
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+#testimonials > div:nth-child(2) {
+  display: flex;
+
+}
+
+#testimonials > div:nth-child(2) > div {
+  margin: 30px;
+  background-color: #e5e5e5;
+  padding: 30px;
+}
+
+
